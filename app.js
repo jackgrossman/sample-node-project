@@ -21,5 +21,5 @@ HTTP SERVER
 
 */
 http.createServer(app).listen(app.get('port'), function(){
-	console.log('Sistem ' + app.get('port') + ' Jacks Nodejs App is Working!');
+	console.log('System working on ' + app.get('port') + ' port');
 });
